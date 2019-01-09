@@ -2,7 +2,7 @@ run:
 	docker run \
 		--rm \
 		-it \
-    -v `pwd`:/gs \
+		-v `pwd`:/gs \
 		-w /gs \
 		michaelneu/ghostpcl
 
