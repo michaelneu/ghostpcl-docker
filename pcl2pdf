@@ -13,6 +13,7 @@ docker run \
   -v `pwd`:/gs \
   -w /gs \
   $gs_image \
+    -dNOPAUSE \
     -sDEVICE=pdfwrite \
     -sOutputFile=$2 \
     $1
